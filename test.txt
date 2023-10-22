@@ -1,1 +1,2 @@
 最初のコミット用
+curl -X POST -H "Content-Type: application/json" -d '{"name":"太郎", "email":"test1@test", "password":"4k5t","birthday":"test","gender":"男"}' 
