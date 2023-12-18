@@ -18,8 +18,8 @@ return new class extends Migration
             $table->string('password');
             $table->string('birthday');
             $table->string('gender');
-            $table->string('anime_like_text');
-            $table->string('user_image');
+            // $table->string('anime_like_text');
+            // $table->string('user_image');
             $table->timestamps();
         });
     }

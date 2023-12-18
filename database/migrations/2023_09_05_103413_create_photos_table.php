@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->integer('user_id');
             $table->integer('album_id');
+            $table->integer('postal_code');
             $table->string('image_url');
             $table->string('image_title');
             $table->integer('tag_id');
